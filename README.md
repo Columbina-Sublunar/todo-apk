@@ -114,7 +114,7 @@ cd android
 
 ## 下载安装
 
-前往 [Releases](https://github.com/Columbina-Sublunar/todo-apk/releases) 页面下载最新 APK。
+👉 [**前往 Releases 下载最新 APK**](https://github.com/Columbina-Sublunar/todo-apk/releases/latest)
 
 > 📦 最低系统要求：Android 6.0+
 
