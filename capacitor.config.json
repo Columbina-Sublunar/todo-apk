@@ -1,0 +1,11 @@
+{
+  "appId": "com.todolist.app",
+  "appName": "待办清单",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
