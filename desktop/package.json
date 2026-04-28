@@ -1,0 +1,43 @@
+{
+  "name": "todo-list-desktop",
+  "version": "1.0.0",
+  "description": "待办清单 Windows 桌面版",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "node patch.js",
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "build:portable": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.todolist.app",
+    "productName": "待办清单",
+    "directories": {
+      "output": "dist"
+    },
+    "extraResources": [
+      { "from": "../www", "to": "www" }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        },
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "unicode": true
+    }
+  }
+}
