@@ -7,9 +7,9 @@ function createWindow() {
   Menu.setApplicationMenu(null);
 
   mainWindow = new BrowserWindow({
-    width: 480,
+    width: 1440,
     height: 800,
-    minWidth: 380,
+    minWidth: 600,
     minHeight: 600,
     resizable: true,
     webPreferences: {
