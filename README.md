@@ -66,7 +66,7 @@
 | Windows | `待办清单 Setup x.x.x.exe` | NSIS 安装版，可选安装路径 |
 | Windows | `待办清单 x.x.x.exe` | 便携版，直接运行无需安装 |
 
-👉 [**前往 Releases 下载最新版本**](https://github.com/Columbina-Sublunar/todo-apk/releases/latest)
+👉 [**前往 Releases 下载最新版本**](https://github.com/Columbina-Sublunar/todo-list/releases/latest)
 
 > 最低系统要求：Android 6.0+ / Windows 10+
 
@@ -75,7 +75,7 @@
 ## 项目结构
 
 ```
-todo-apk/
+todo-list/
 ├── www/
 │   └── index.html              # 核心应用（HTML+CSS+JS，单文件）
 ├── android/                    # Android 原生项目 (Capacitor)
